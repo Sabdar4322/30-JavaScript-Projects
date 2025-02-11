@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#colorCode {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
